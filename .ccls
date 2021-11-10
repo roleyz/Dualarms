@@ -1,0 +1,11 @@
+clang
+%h -x c++-header
+-Wall
+-Wextra
+%cpp -std=c++2a
+%c -std=c11
+%h %hpp --include=Global.h
+-Iinc
+-DMACRO
+-I.
+../include
