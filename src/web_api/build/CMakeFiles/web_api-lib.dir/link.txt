@@ -1,0 +1,2 @@
+/bin/ar qc libweb_api-lib.a CMakeFiles/web_api-lib.dir/src/service/UserService.cpp.o CMakeFiles/web_api-lib.dir/src/ErrorHandler.cpp.o
+/bin/ranlib libweb_api-lib.a

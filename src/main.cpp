@@ -1,6 +1,13 @@
 #include "../include/main.h"
 
+#include <fcntl.h>
+#include <signal.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/stat.h>
+#include <time.h>
+#include <unistd.h>
 
 #include <iostream>
 
@@ -11,18 +18,53 @@ CRoot::CRoot(void) { m_log_manager.initialize(); }
 CRoot::~CRoot(void) { m_log_manager.shutdown(); }
 void CRoot::run() { dualarms::utils::test_method(); }
 }  // namespace dualarms
+
+static bool flag = true;
+void handler(int);
+
 int main() {
   /* dualarms::utils::test_method(); */
   dualarms::CRoot* root = new dualarms::CRoot();
-  TRACE(" This is trce");
-  DEBUG("This is debug");
-  INFO("This is info");
-  WARN("This is warn");
-  ERROR("This is error");
-  FATAL("This is fatal");
-  ASSERT("***+++***", "This is asset");
+  time_t t;
+  int fd;
+  if (-1 == daemon(0, 0)) {
+    ERROR("daemon error ");
+    exit(1);
+  }
+  struct sigaction act;
+  act.sa_handler = handler;
+  sigemptyset(&act.sa_mask);
+  act.sa_flags = 0;
+  if (sigaction(SIGQUIT, &act, NULL)) {
+    ERROR("sigaction error ");
+    exit(0);
+  }
+  while (flag) {
+    fd = open("/home/roley/daemon.log", O_WRONLY | O_CREAT | O_APPEND, 0644);
+    if (fd == -1) {
+      printf("open error\n");
+    }
+    t = time(0);
+    char* buf = asctime(localtime(&t));
+    write(fd, buf, strlen(buf));
+    close(fd);
+    root->run();
+    printf("daemon runing.....");
+    sleep(60);
+  }
+  /* TRACE(" This is trce"); */
+  /* DEBUG("This is debug"); */
+  /* INFO("This is info"); */
+  /* WARN("This is warn"); */
+  /* ERROR("This is error"); */
+  /* FATAL("This is fatal"); */
+  /* ASSERT("***+++***", "This is asset"); */
   /* root.run(); */
-  root->run();
   delete root;
   return 0;
+}
+
+void handler(int sig) {
+  TRACE(" Process got a signal {}, quitting...", sig);
+  flag = false;
 }
