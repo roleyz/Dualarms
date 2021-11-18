@@ -16,7 +16,7 @@ bin_PROGRAMS = Dualarms
  
 # <binary_name>_LDADD is used to pass extra parameters at link time, such as 
 # libraries that need to be linked in. 
-Dualarms_LDADD = $(top_builddir)/lib/libutil.a
+Dualarms_LDADD = $(top_builddir)/lib/libutil.a -lboost_log -lpthread -lboost_thread -lboost_system -lboost_log_setup
 
 # <binary_name>_LDFLAGS is used to pass extra parameters at compilation time, 
 # such as the paths to libraries that are needed that are not in the default 
@@ -24,7 +24,7 @@ Dualarms_LDADD = $(top_builddir)/lib/libutil.a
 # If the user supplies a directory where libpcap is installed, the contents 
 # of the variable setup in configire.in will be substituted below so the 
 # library file will be found. 
-Dualarms_LDFLAGS = 
+Dualarms_LDFLAGS = -DBOOST_LOG_DYN_LINK 
  
 # The INCLUDES macro allows us to tell the tools where needed header files are 
 # <binary_name>_SOURCES takes a space delimited list of the source code files 

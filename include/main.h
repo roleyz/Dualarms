@@ -10,7 +10,7 @@ class CRoot {
   void run();
 
  private:
-  dualarms::utils::log_manager m_log_manager;
+  dualarms::utils::Logger m_log_manager;
 };
 }  // namespace dualarms
 #endif

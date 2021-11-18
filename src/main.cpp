@@ -9,13 +9,11 @@
 #include <time.h>
 #include <unistd.h>
 
-#include <iostream>
-
-#include "../include/log.h"
+#include "../include/logmanager.h"
 
 namespace dualarms {
-CRoot::CRoot(void) { m_log_manager.initialize(); }
-CRoot::~CRoot(void) { m_log_manager.shutdown(); }
+CRoot::CRoot(void) { m_log_manager.initFromConfig("logconfig"); }
+CRoot::~CRoot(void) {}
 void CRoot::run() { dualarms::utils::test_method(); }
 }  // namespace dualarms
 
@@ -40,7 +38,9 @@ int main() {
     exit(0);
   }
   while (flag) {
+    TRACE(" This is trce");
     fd = open("/home/roley/daemon.log", O_WRONLY | O_CREAT | O_APPEND, 0644);
+
     if (fd == -1) {
       printf("open error\n");
     }
@@ -49,15 +49,15 @@ int main() {
     write(fd, buf, strlen(buf));
     close(fd);
     root->run();
-    printf("daemon runing.....");
-    sleep(60);
+    TRACE("daemon runing.....{}");
+    sleep(5);
   }
-  /* TRACE(" This is trce"); */
   /* DEBUG("This is debug"); */
   /* INFO("This is info"); */
   /* WARN("This is warn"); */
   /* ERROR("This is error"); */
   /* FATAL("This is fatal"); */
+  /* root->run(); */
   /* ASSERT("***+++***", "This is asset"); */
   /* root.run(); */
   delete root;
@@ -65,6 +65,7 @@ int main() {
 }
 
 void handler(int sig) {
-  TRACE(" Process got a signal {}, quitting...", sig);
+  printf(" Process got a signal %d, quitting...", sig);
+  /* BOOST_LOG_TRIVIAL(trace) << sig; */
   flag = false;
 }

@@ -2,12 +2,12 @@
 
 #include <stdio.h>
 
-#include "../include/log.h"
+#include "../include/logmanager.h"
 
 namespace dualarms {
 namespace utils {
 void test_method() {
-  DEBUG(" TEST METHOD===")
+  DEBUG(" TEST METHOD===");
   printf("hello world!\n");
 }
 std::string test_str() { return "hello World!"; }

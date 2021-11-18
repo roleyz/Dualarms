@@ -8,7 +8,7 @@ AM_INIT_AUTOMAKE([foreign -Wall -Werror])
 # AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_LIBOBJ_DIR([lib])
 
-AC_CHECK_LIB([spdlog], [-lsdplog])
+AC_CHECK_LIB([boost_log], [-lboost_log])
 # AC_CHECK_HEADERS([])
 AC_PROG_CXX 
 AC_PROG_CC 

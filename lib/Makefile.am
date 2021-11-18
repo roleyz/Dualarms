@@ -4,4 +4,4 @@ libutil_a_SOURCES = util.cpp \
 					logmanager.cpp \
 					../include/logmanager.h \
 					../include/log.h 
-libutil_a_LIBADD = $(LIBOBJS)
+libutil_a_LIBADD = $(LIBOBJS) 
