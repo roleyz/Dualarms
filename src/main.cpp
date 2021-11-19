@@ -50,6 +50,8 @@ int main() {
     close(fd);
     root->run();
     TRACE("daemon runing.....{}");
+    DATA_TRACE("DATA_TRACE "
+               << "and " << 456 << "ok...3");
     sleep(5);
   }
   /* DEBUG("This is debug"); */
