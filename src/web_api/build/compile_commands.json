@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/roley/Project/Dualarms/src/web_api/build",
+  "command": "/bin/c++ -DDATABASE_FILE=\\\"/home/roley/Project/Dualarms/src/web_api/db.sqlite\\\" -DDATABASE_MIGRATIONS=\\\"/home/roley/Project/Dualarms/src/web_api/sql\\\" -DOATPP_SWAGGER_RES_PATH=\\\"/usr/local/include/oatpp-1.3.0/oatpp-swagger//../bin/oatpp-swagger/res\\\" -DTESTDATABASE_FILE=\\\"/home/roley/Project/Dualarms/src/web_api/test-db.sqlite\\\" -I/home/roley/Project/Dualarms/src/web_api/src -isystem /usr/include/oatpp-1.3.0/oatpp -isystem /usr/local/include/oatpp-1.3.0/oatpp-swagger -isystem /usr/local/include/oatpp-1.3.0/oatpp-sqlite -isystem /usr/local/include/oatpp-1.3.0/oatpp-sqlite/sqlite -std=gnu++11 -o CMakeFiles/web_api-lib.dir/src/service/UserService.cpp.o -c /home/roley/Project/Dualarms/src/web_api/src/service/UserService.cpp",
+  "file": "/home/roley/Project/Dualarms/src/web_api/src/service/UserService.cpp"
+},
+{
+  "directory": "/home/roley/Project/Dualarms/src/web_api/build",
+  "command": "/bin/c++ -DDATABASE_FILE=\\\"/home/roley/Project/Dualarms/src/web_api/db.sqlite\\\" -DDATABASE_MIGRATIONS=\\\"/home/roley/Project/Dualarms/src/web_api/sql\\\" -DOATPP_SWAGGER_RES_PATH=\\\"/usr/local/include/oatpp-1.3.0/oatpp-swagger//../bin/oatpp-swagger/res\\\" -DTESTDATABASE_FILE=\\\"/home/roley/Project/Dualarms/src/web_api/test-db.sqlite\\\" -I/home/roley/Project/Dualarms/src/web_api/src -isystem /usr/include/oatpp-1.3.0/oatpp -isystem /usr/local/include/oatpp-1.3.0/oatpp-swagger -isystem /usr/local/include/oatpp-1.3.0/oatpp-sqlite -isystem /usr/local/include/oatpp-1.3.0/oatpp-sqlite/sqlite -std=gnu++11 -o CMakeFiles/web_api-lib.dir/src/ErrorHandler.cpp.o -c /home/roley/Project/Dualarms/src/web_api/src/ErrorHandler.cpp",
+  "file": "/home/roley/Project/Dualarms/src/web_api/src/ErrorHandler.cpp"
+},
+{
+  "directory": "/home/roley/Project/Dualarms/src/web_api/build",
+  "command": "/bin/c++ -DDATABASE_FILE=\\\"/home/roley/Project/Dualarms/src/web_api/db.sqlite\\\" -DDATABASE_MIGRATIONS=\\\"/home/roley/Project/Dualarms/src/web_api/sql\\\" -DOATPP_SWAGGER_RES_PATH=\\\"/usr/local/include/oatpp-1.3.0/oatpp-swagger//../bin/oatpp-swagger/res\\\" -DTESTDATABASE_FILE=\\\"/home/roley/Project/Dualarms/src/web_api/test-db.sqlite\\\" -I/home/roley/Project/Dualarms/src/web_api/src -isystem /usr/include/oatpp-1.3.0/oatpp -isystem /usr/local/include/oatpp-1.3.0/oatpp-swagger -isystem /usr/local/include/oatpp-1.3.0/oatpp-sqlite -isystem /usr/local/include/oatpp-1.3.0/oatpp-sqlite/sqlite -std=gnu++11 -o CMakeFiles/web_api-test.dir/test/tests.cpp.o -c /home/roley/Project/Dualarms/src/web_api/test/tests.cpp",
+  "file": "/home/roley/Project/Dualarms/src/web_api/test/tests.cpp"
+},
+{
+  "directory": "/home/roley/Project/Dualarms/src/web_api/build",
+  "command": "/bin/c++ -DDATABASE_FILE=\\\"/home/roley/Project/Dualarms/src/web_api/db.sqlite\\\" -DDATABASE_MIGRATIONS=\\\"/home/roley/Project/Dualarms/src/web_api/sql\\\" -DOATPP_SWAGGER_RES_PATH=\\\"/usr/local/include/oatpp-1.3.0/oatpp-swagger//../bin/oatpp-swagger/res\\\" -DTESTDATABASE_FILE=\\\"/home/roley/Project/Dualarms/src/web_api/test-db.sqlite\\\" -I/home/roley/Project/Dualarms/src/web_api/src -isystem /usr/include/oatpp-1.3.0/oatpp -isystem /usr/local/include/oatpp-1.3.0/oatpp-swagger -isystem /usr/local/include/oatpp-1.3.0/oatpp-sqlite -isystem /usr/local/include/oatpp-1.3.0/oatpp-sqlite/sqlite -std=gnu++11 -o CMakeFiles/web_api-test.dir/test/UserControllerTest.cpp.o -c /home/roley/Project/Dualarms/src/web_api/test/UserControllerTest.cpp",
+  "file": "/home/roley/Project/Dualarms/src/web_api/test/UserControllerTest.cpp"
+},
+{
+  "directory": "/home/roley/Project/Dualarms/src/web_api/build",
+  "command": "/bin/c++ -DDATABASE_FILE=\\\"/home/roley/Project/Dualarms/src/web_api/db.sqlite\\\" -DDATABASE_MIGRATIONS=\\\"/home/roley/Project/Dualarms/src/web_api/sql\\\" -DOATPP_SWAGGER_RES_PATH=\\\"/usr/local/include/oatpp-1.3.0/oatpp-swagger//../bin/oatpp-swagger/res\\\" -DTESTDATABASE_FILE=\\\"/home/roley/Project/Dualarms/src/web_api/test-db.sqlite\\\" -I/home/roley/Project/Dualarms/src/web_api/src -isystem /usr/include/oatpp-1.3.0/oatpp -isystem /usr/local/include/oatpp-1.3.0/oatpp-swagger -isystem /usr/local/include/oatpp-1.3.0/oatpp-sqlite -isystem /usr/local/include/oatpp-1.3.0/oatpp-sqlite/sqlite -std=gnu++11 -o CMakeFiles/web_api.dir/src/App.cpp.o -c /home/roley/Project/Dualarms/src/web_api/src/App.cpp",
+  "file": "/home/roley/Project/Dualarms/src/web_api/src/App.cpp"
+}
+]

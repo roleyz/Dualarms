@@ -9,5 +9,938 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	5.9.0	/15251e1f/
-main	main.cpp	/^int main() { test_method(); }$/;"	f	typeref:typename:int
-test_method	main.cpp	/^void test_method() { printf("hello world!\\n"); }$/;"	f	typeref:typename:void
+$(ACLOCAL_M4)	Makefile	/^$(ACLOCAL_M4):  $(am__aclocal_m4_deps)$/;"	t
+$(ACLOCAL_M4)	Makefile.in	/^$(ACLOCAL_M4):  $(am__aclocal_m4_deps)$/;"	t
+$(VERBOSE).SILENT	web_api/build/Makefile	/^$(VERBOSE).SILENT:$/;"	t
+$(VERBOSE)MAKESILENT	web_api/build/Makefile	/^$(VERBOSE)MAKESILENT = -s$/;"	m
+$(am__aclocal_m4_deps)	Makefile	/^$(am__aclocal_m4_deps):$/;"	t
+$(am__aclocal_m4_deps)	Makefile.in	/^$(am__aclocal_m4_deps):$/;"	t
+$(am__depfiles_remade)	Makefile	/^$(am__depfiles_remade):$/;"	t
+$(am__depfiles_remade)	Makefile.in	/^$(am__depfiles_remade):$/;"	t
+$(srcdir)/Makefile.in	Makefile	/^$(srcdir)\/Makefile.in:  $(srcdir)\/Makefile.am  $(am__configure_deps)$/;"	t
+$(srcdir)/Makefile.in	Makefile.in	/^$(srcdir)\/Makefile.in:  $(srcdir)\/Makefile.am  $(am__configure_deps)$/;"	t
+$(top_builddir)/config.status	Makefile	/^$(top_builddir)\/config.status: $(top_srcdir)\/configure $(CONFIG_STATUS_DEPENDENCIES)$/;"	t
+$(top_builddir)/config.status	Makefile.in	/^$(top_builddir)\/config.status: $(top_srcdir)\/configure $(CONFIG_STATUS_DEPENDENCIES)$/;"	t
+$(top_srcdir)/configure	Makefile	/^$(top_srcdir)\/configure:  $(am__configure_deps)$/;"	t
+$(top_srcdir)/configure	Makefile.in	/^$(top_srcdir)\/configure:  $(am__configure_deps)$/;"	t
+%	web_api/build/Makefile	/^% : %,v$/;"	t
+%	web_api/build/Makefile	/^% : RCS\/%$/;"	t
+%	web_api/build/Makefile	/^% : RCS\/%,v$/;"	t
+%	web_api/build/Makefile	/^% : SCCS\/s.%$/;"	t
+%	web_api/build/Makefile	/^% : s.%$/;"	t
+.cpp.o	Makefile	/^.cpp.o:$/;"	t
+.cpp.o	Makefile.in	/^.cpp.o:$/;"	t
+.cpp.obj	Makefile	/^.cpp.obj:$/;"	t
+.cpp.obj	Makefile.in	/^.cpp.obj:$/;"	t
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} '\/home\/roley\/Project\/Dualarms\/missing' aclocal-1.16$/;"	m
+ACLOCAL	Makefile.in	/^ACLOCAL = @ACLOCAL@$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	Makefile.in	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AMTAR	Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AMTAR	Makefile.in	/^AMTAR = @AMTAR@$/;"	m
+AM_CPPFLAGS	Makefile	/^AM_CPPFLAGS = -I$(top_builddir)\/include $/;"	m
+AM_CPPFLAGS	Makefile.am	/^AM_CPPFLAGS = -I$(top_builddir)\/include $/;"	m
+AM_CPPFLAGS	Makefile.in	/^AM_CPPFLAGS = -I$(top_builddir)\/include $/;"	m
+AM_DEFAULT_VERBOSITY	Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_DEFAULT_VERBOSITY	Makefile.in	/^AM_DEFAULT_VERBOSITY = @AM_DEFAULT_VERBOSITY@$/;"	m
+AM_V_CXX	Makefile	/^AM_V_CXX = $(am__v_CXX_$(V))$/;"	m
+AM_V_CXX	Makefile.in	/^AM_V_CXX = $(am__v_CXX_@AM_V@)$/;"	m
+AM_V_CXXLD	Makefile	/^AM_V_CXXLD = $(am__v_CXXLD_$(V))$/;"	m
+AM_V_CXXLD	Makefile.in	/^AM_V_CXXLD = $(am__v_CXXLD_@AM_V@)$/;"	m
+AM_V_GEN	Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_GEN	Makefile.in	/^AM_V_GEN = $(am__v_GEN_@AM_V@)$/;"	m
+AM_V_P	Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_P	Makefile.in	/^AM_V_P = $(am__v_P_@AM_V@)$/;"	m
+AM_V_at	Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_at	Makefile.in	/^AM_V_at = $(am__v_at_@AM_V@)$/;"	m
+AR	Makefile	/^AR = ar$/;"	m
+AR	Makefile.in	/^AR = @AR@$/;"	m
+ARCHITECTURE_ID	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^#   define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^#  define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^#  define ARCHITECTURE_ID$/;"	d	file:
+ARCHITECTURE_ID	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID$/;"	d	file:
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} '\/home\/roley\/Project\/Dualarms\/missing' autoconf$/;"	m
+AUTOCONF	Makefile.in	/^AUTOCONF = @AUTOCONF@$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} '\/home\/roley\/Project\/Dualarms\/missing' autoheader$/;"	m
+AUTOHEADER	Makefile.in	/^AUTOHEADER = @AUTOHEADER@$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} '\/home\/roley\/Project\/Dualarms\/missing' automake-1.16$/;"	m
+AUTOMAKE	Makefile.in	/^AUTOMAKE = @AUTOMAKE@$/;"	m
+AWK	Makefile	/^AWK = gawk$/;"	m
+AWK	Makefile.in	/^AWK = @AWK@$/;"	m
+AppComponent	web_api/src/AppComponent.hpp	/^class AppComponent {$/;"	c
+AppComponent_hpp	web_api/src/AppComponent.hpp	/^#define AppComponent_hpp$/;"	d
+AppUser	web_api/sql/001_init.sql	/^CREATE TABLE AppUser ($/;"	t
+CC	Makefile	/^CC = gcc$/;"	m
+CC	Makefile.in	/^CC = @CC@$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	Makefile.in	/^CCDEPMODE = @CCDEPMODE@$/;"	m
+CFLAGS	Makefile	/^CFLAGS = $/;"	m
+CFLAGS	Makefile.in	/^CFLAGS = @CFLAGS@$/;"	m
+CMAKE_AR	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_AR "\/bin\/ar")$/;"	v
+CMAKE_AR	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_AR "\/bin\/ar")$/;"	v
+CMAKE_BINARY_DIR	web_api/build/Makefile	/^CMAKE_BINARY_DIR = \/home\/roley\/Project\/Dualarms\/src\/web_api\/build$/;"	m
+CMAKE_C11_COMPILE_FEATURES	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C11_COMPILE_FEATURES "c_std_11;c_static_assert")$/;"	v
+CMAKE_C17_COMPILE_FEATURES	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C17_COMPILE_FEATURES "c_std_17")$/;"	v
+CMAKE_C23_COMPILE_FEATURES	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C23_COMPILE_FEATURES "c_std_23")$/;"	v
+CMAKE_C90_COMPILE_FEATURES	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C90_COMPILE_FEATURES "c_std_90;c_function_prototypes")$/;"	v
+CMAKE_C99_COMPILE_FEATURES	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C99_COMPILE_FEATURES "c_std_99;c_restrict;c_variadic_macros")$/;"	v
+CMAKE_CL_SHOWINCLUDES_PREFIX	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^  set(CMAKE_CL_SHOWINCLUDES_PREFIX "${CMAKE_C_CL_SHOWINCLUDES_PREFIX}")$/;"	v
+CMAKE_CL_SHOWINCLUDES_PREFIX	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^  set(CMAKE_CL_SHOWINCLUDES_PREFIX "${CMAKE_CXX_CL_SHOWINCLUDES_PREFIX}")$/;"	v
+CMAKE_COMMAND	web_api/build/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_COMPILER_IS_CYGWIN	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_COMPILER_IS_CYGWIN )$/;"	v
+CMAKE_COMPILER_IS_CYGWIN	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_COMPILER_IS_CYGWIN )$/;"	v
+CMAKE_COMPILER_IS_GNUCC	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_COMPILER_IS_GNUCC 1)$/;"	v
+CMAKE_COMPILER_IS_GNUCXX	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_COMPILER_IS_GNUCXX 1)$/;"	v
+CMAKE_COMPILER_IS_MINGW	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_COMPILER_IS_MINGW )$/;"	v
+CMAKE_COMPILER_IS_MINGW	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_COMPILER_IS_MINGW )$/;"	v
+CMAKE_CROSSCOMPILING	web_api/build/CMakeFiles/3.21.4/CMakeSystem.cmake	/^set(CMAKE_CROSSCOMPILING "FALSE")$/;"	v
+CMAKE_CROSSCOMPILING	web_api/build/cmake_install.cmake	/^  set(CMAKE_CROSSCOMPILING "FALSE")$/;"	v
+CMAKE_CXX11_COMPILE_FEATURES	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX11_COMPILE_FEATURES "cxx_std_11;cxx_alias_templates;cxx_alignas;cxx_alignof;cxx_att/;"	v
+CMAKE_CXX14_COMPILE_FEATURES	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX14_COMPILE_FEATURES "cxx_std_14;cxx_aggregate_default_initializers;cxx_attribute_de/;"	v
+CMAKE_CXX17_COMPILE_FEATURES	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX17_COMPILE_FEATURES "cxx_std_17")$/;"	v
+CMAKE_CXX20_COMPILE_FEATURES	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX20_COMPILE_FEATURES "cxx_std_20")$/;"	v
+CMAKE_CXX23_COMPILE_FEATURES	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX23_COMPILE_FEATURES "cxx_std_23")$/;"	v
+CMAKE_CXX98_COMPILE_FEATURES	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX98_COMPILE_FEATURES "cxx_std_98;cxx_template_template_parameters")$/;"	v
+CMAKE_CXX_ABI_COMPILED	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_ABI_COMPILED TRUE)$/;"	v
+CMAKE_CXX_BYTE_ORDER	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_BYTE_ORDER "LITTLE_ENDIAN")$/;"	v
+CMAKE_CXX_CL_SHOWINCLUDES_PREFIX	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_CL_SHOWINCLUDES_PREFIX "")$/;"	v
+CMAKE_CXX_COMPILER	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER "\/bin\/c++")$/;"	v
+CMAKE_CXX_COMPILER_ABI	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ABI "ELF")$/;"	v
+CMAKE_CXX_COMPILER_AR	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_AR "\/bin\/gcc-ar")$/;"	v
+CMAKE_CXX_COMPILER_ARG1	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ARG1 "")$/;"	v
+CMAKE_CXX_COMPILER_ENV_VAR	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ENV_VAR "CXX")$/;"	v
+CMAKE_CXX_COMPILER_FRONTEND_VARIANT	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_FRONTEND_VARIANT "")$/;"	v
+CMAKE_CXX_COMPILER_ID	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ID "GNU")$/;"	v
+CMAKE_CXX_COMPILER_ID_RUN	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ID_RUN 1)$/;"	v
+CMAKE_CXX_COMPILER_LOADED	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_LOADED 1)$/;"	v
+CMAKE_CXX_COMPILER_RANLIB	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_RANLIB "\/bin\/gcc-ranlib")$/;"	v
+CMAKE_CXX_COMPILER_VERSION	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_VERSION "11.1.0")$/;"	v
+CMAKE_CXX_COMPILER_VERSION_INTERNAL	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")$/;"	v
+CMAKE_CXX_COMPILER_WORKS	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_WORKS TRUE)$/;"	v
+CMAKE_CXX_COMPILER_WRAPPER	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_WRAPPER "")$/;"	v
+CMAKE_CXX_COMPILE_FEATURES	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILE_FEATURES "cxx_std_98;cxx_template_template_parameters;cxx_std_11;cxx_alias/;"	v
+CMAKE_CXX_IGNORE_EXTENSIONS	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IGNORE_EXTENSIONS inl;h;hpp;HPP;H;o;O;obj;OBJ;def;DEF;rc;RC)$/;"	v
+CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "\/usr\/include\/c++\/11.1.0;\/usr\/include\/c++\/11./;"	v
+CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "\/usr\/lib\/gcc\/x86_64-pc-linux-gnu\/11.1.0;\/usr\/lib/;"	v
+CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")$/;"	v
+CMAKE_CXX_IMPLICIT_LINK_LIBRARIES	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;m;gcc_s;gcc;c;gcc_s;gcc")$/;"	v
+CMAKE_CXX_INCLUDE_REGEX_COMPLAIN	web_api/build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_CXX_INCLUDE_REGEX_COMPLAIN ${CMAKE_C_INCLUDE_REGEX_COMPLAIN})$/;"	v
+CMAKE_CXX_INCLUDE_REGEX_SCAN	web_api/build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_CXX_INCLUDE_REGEX_SCAN ${CMAKE_C_INCLUDE_REGEX_SCAN})$/;"	v
+CMAKE_CXX_LIBRARY_ARCHITECTURE	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_LIBRARY_ARCHITECTURE "")$/;"	v
+CMAKE_CXX_LINKER_PREFERENCE	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_LINKER_PREFERENCE 30)$/;"	v
+CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES 1)$/;"	v
+CMAKE_CXX_PLATFORM_ID	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_PLATFORM_ID "Linux")$/;"	v
+CMAKE_CXX_SIMULATE_ID	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SIMULATE_ID "")$/;"	v
+CMAKE_CXX_SIMULATE_VERSION	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SIMULATE_VERSION "")$/;"	v
+CMAKE_CXX_SIZEOF_DATA_PTR	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SIZEOF_DATA_PTR "8")$/;"	v
+CMAKE_CXX_SOURCE_FILE_EXTENSIONS	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SOURCE_FILE_EXTENSIONS C;M;c++;cc;cpp;cxx;m;mm;mpp;CPP;ixx;cppm)$/;"	v
+CMAKE_CXX_STANDARD	web_api/CMakeLists.txt	/^set(CMAKE_CXX_STANDARD 11)$/;"	v
+CMAKE_CXX_STANDARD_COMPUTED_DEFAULT	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_STANDARD_COMPUTED_DEFAULT "17")$/;"	v
+CMAKE_C_ABI_COMPILED	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_ABI_COMPILED TRUE)$/;"	v
+CMAKE_C_BYTE_ORDER	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_BYTE_ORDER "LITTLE_ENDIAN")$/;"	v
+CMAKE_C_CL_SHOWINCLUDES_PREFIX	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_CL_SHOWINCLUDES_PREFIX "")$/;"	v
+CMAKE_C_COMPILER	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER "\/bin\/cc")$/;"	v
+CMAKE_C_COMPILER_ABI	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_ABI "ELF")$/;"	v
+CMAKE_C_COMPILER_AR	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_AR "\/bin\/gcc-ar")$/;"	v
+CMAKE_C_COMPILER_ARG1	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_ARG1 "")$/;"	v
+CMAKE_C_COMPILER_ENV_VAR	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_ENV_VAR "CC")$/;"	v
+CMAKE_C_COMPILER_FRONTEND_VARIANT	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_FRONTEND_VARIANT "")$/;"	v
+CMAKE_C_COMPILER_ID	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_ID "GNU")$/;"	v
+CMAKE_C_COMPILER_ID_RUN	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_ID_RUN 1)$/;"	v
+CMAKE_C_COMPILER_LOADED	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_LOADED 1)$/;"	v
+CMAKE_C_COMPILER_RANLIB	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_RANLIB "\/bin\/gcc-ranlib")$/;"	v
+CMAKE_C_COMPILER_VERSION	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_VERSION "11.1.0")$/;"	v
+CMAKE_C_COMPILER_VERSION_INTERNAL	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_VERSION_INTERNAL "")$/;"	v
+CMAKE_C_COMPILER_WORKS	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_WORKS TRUE)$/;"	v
+CMAKE_C_COMPILER_WRAPPER	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_WRAPPER "")$/;"	v
+CMAKE_C_COMPILE_FEATURES	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILE_FEATURES "c_std_90;c_function_prototypes;c_std_99;c_restrict;c_variadic_macr/;"	v
+CMAKE_C_IGNORE_EXTENSIONS	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_IGNORE_EXTENSIONS h;H;o;O;obj;OBJ;def;DEF;rc;RC)$/;"	v
+CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "\/usr\/lib\/gcc\/x86_64-pc-linux-gnu\/11.1.0\/include;/;"	v
+CMAKE_C_IMPLICIT_LINK_DIRECTORIES	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "\/usr\/lib\/gcc\/x86_64-pc-linux-gnu\/11.1.0;\/usr\/lib;\//;"	v
+CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")$/;"	v
+CMAKE_C_IMPLICIT_LINK_LIBRARIES	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;gcc_s;c;gcc;gcc_s")$/;"	v
+CMAKE_C_INCLUDE_REGEX_COMPLAIN	web_api/build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_C_INCLUDE_REGEX_COMPLAIN "^$")$/;"	v
+CMAKE_C_INCLUDE_REGEX_SCAN	web_api/build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_C_INCLUDE_REGEX_SCAN "^.*$")$/;"	v
+CMAKE_C_LIBRARY_ARCHITECTURE	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_LIBRARY_ARCHITECTURE "")$/;"	v
+CMAKE_C_LINKER_PREFERENCE	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_LINKER_PREFERENCE 10)$/;"	v
+CMAKE_C_PLATFORM_ID	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_PLATFORM_ID "Linux")$/;"	v
+CMAKE_C_SIMULATE_ID	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_SIMULATE_ID "")$/;"	v
+CMAKE_C_SIMULATE_VERSION	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_SIMULATE_VERSION "")$/;"	v
+CMAKE_C_SIZEOF_DATA_PTR	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_SIZEOF_DATA_PTR "8")$/;"	v
+CMAKE_C_SOURCE_FILE_EXTENSIONS	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_SOURCE_FILE_EXTENSIONS c;m)$/;"	v
+CMAKE_C_STANDARD_COMPUTED_DEFAULT	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_C_STANDARD_COMPUTED_DEFAULT "17")$/;"	v
+CMAKE_DEPENDS_DEPENDENCY_FILES	web_api/build/CMakeFiles/web_api-lib.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
+CMAKE_DEPENDS_DEPENDENCY_FILES	web_api/build/CMakeFiles/web_api-test.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
+CMAKE_DEPENDS_DEPENDENCY_FILES	web_api/build/CMakeFiles/web_api.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_DEPENDENCY_FILES$/;"	v
+CMAKE_DEPENDS_GENERATOR	web_api/build/CMakeFiles/Makefile.cmake	/^set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")$/;"	v
+CMAKE_DEPENDS_IN_PROJECT_ONLY	web_api/build/CMakeFiles/web_api-lib.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
+CMAKE_DEPENDS_IN_PROJECT_ONLY	web_api/build/CMakeFiles/web_api-test.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
+CMAKE_DEPENDS_IN_PROJECT_ONLY	web_api/build/CMakeFiles/web_api.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)$/;"	v
+CMAKE_DEPENDS_LANGUAGES	web_api/build/CMakeFiles/web_api-lib.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	web_api/build/CMakeFiles/web_api-test.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	web_api/build/CMakeFiles/web_api.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPEND_INFO_FILES	web_api/build/CMakeFiles/Makefile.cmake	/^set(CMAKE_DEPEND_INFO_FILES$/;"	v
+CMAKE_FORCE_UNIX_PATHS	web_api/build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_FORCE_UNIX_PATHS 1)$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	web_api/build/CMakeFiles/web_api-lib.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	web_api/build/CMakeFiles/web_api-test.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	web_api/build/CMakeFiles/web_api.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_HOST_SYSTEM	web_api/build/CMakeFiles/3.21.4/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM "Linux-5.14.15-arch1-1")$/;"	v
+CMAKE_HOST_SYSTEM_NAME	web_api/build/CMakeFiles/3.21.4/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_NAME "Linux")$/;"	v
+CMAKE_HOST_SYSTEM_PROCESSOR	web_api/build/CMakeFiles/3.21.4/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")$/;"	v
+CMAKE_HOST_SYSTEM_VERSION	web_api/build/CMakeFiles/3.21.4/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_VERSION "5.14.15-arch1-1")$/;"	v
+CMAKE_INSTALL_COMPONENT	web_api/build/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")$/;"	v
+CMAKE_INSTALL_COMPONENT	web_api/build/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT)$/;"	v
+CMAKE_INSTALL_CONFIG_NAME	web_api/build/cmake_install.cmake	/^    set(CMAKE_INSTALL_CONFIG_NAME "")$/;"	v
+CMAKE_INSTALL_MANIFEST	web_api/build/cmake_install.cmake	/^  set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")$/;"	v
+CMAKE_INSTALL_MANIFEST	web_api/build/cmake_install.cmake	/^  set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")$/;"	v
+CMAKE_INSTALL_PREFIX	web_api/build/cmake_install.cmake	/^  set(CMAKE_INSTALL_PREFIX "\/usr\/local")$/;"	v
+CMAKE_INSTALL_SO_NO_EXE	web_api/build/cmake_install.cmake	/^  set(CMAKE_INSTALL_SO_NO_EXE "0")$/;"	v
+CMAKE_INTERNAL_PLATFORM_ABI	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^  set(CMAKE_INTERNAL_PLATFORM_ABI "${CMAKE_C_COMPILER_ABI}")$/;"	v
+CMAKE_INTERNAL_PLATFORM_ABI	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^  set(CMAKE_INTERNAL_PLATFORM_ABI "${CMAKE_CXX_COMPILER_ABI}")$/;"	v
+CMAKE_LIBRARY_ARCHITECTURE	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^  set(CMAKE_LIBRARY_ARCHITECTURE "")$/;"	v
+CMAKE_LIBRARY_ARCHITECTURE	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^  set(CMAKE_LIBRARY_ARCHITECTURE "")$/;"	v
+CMAKE_LINKER	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_LINKER "\/bin\/ld")$/;"	v
+CMAKE_LINKER	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_LINKER "\/bin\/ld")$/;"	v
+CMAKE_MAKEFILE_DEPENDS	web_api/build/CMakeFiles/Makefile.cmake	/^set(CMAKE_MAKEFILE_DEPENDS$/;"	v
+CMAKE_MAKEFILE_OUTPUTS	web_api/build/CMakeFiles/Makefile.cmake	/^set(CMAKE_MAKEFILE_OUTPUTS$/;"	v
+CMAKE_MAKEFILE_PRODUCTS	web_api/build/CMakeFiles/Makefile.cmake	/^set(CMAKE_MAKEFILE_PRODUCTS$/;"	v
+CMAKE_MT	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_MT "")$/;"	v
+CMAKE_MT	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_MT "")$/;"	v
+CMAKE_OBJDUMP	web_api/build/cmake_install.cmake	/^  set(CMAKE_OBJDUMP "\/bin\/objdump")$/;"	v
+CMAKE_RANLIB	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^set(CMAKE_RANLIB "\/bin\/ranlib")$/;"	v
+CMAKE_RANLIB	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^set(CMAKE_RANLIB "\/bin\/ranlib")$/;"	v
+CMAKE_RELATIVE_PATH_TOP_BINARY	web_api/build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_RELATIVE_PATH_TOP_BINARY "\/home\/roley\/Project\/Dualarms\/src\/web_api\/build")$/;"	v
+CMAKE_RELATIVE_PATH_TOP_SOURCE	web_api/build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_RELATIVE_PATH_TOP_SOURCE "\/home\/roley\/Project\/Dualarms\/src\/web_api")$/;"	v
+CMAKE_SIZEOF_VOID_P	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^  set(CMAKE_SIZEOF_VOID_P "${CMAKE_C_SIZEOF_DATA_PTR}")$/;"	v
+CMAKE_SIZEOF_VOID_P	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^  set(CMAKE_SIZEOF_VOID_P "${CMAKE_CXX_SIZEOF_DATA_PTR}")$/;"	v
+CMAKE_SOURCE_DIR	web_api/build/Makefile	/^CMAKE_SOURCE_DIR = \/home\/roley\/Project\/Dualarms\/src\/web_api$/;"	m
+CMAKE_SYSTEM	web_api/build/CMakeFiles/3.21.4/CMakeSystem.cmake	/^set(CMAKE_SYSTEM "Linux-5.14.15-arch1-1")$/;"	v
+CMAKE_SYSTEM_LOADED	web_api/build/CMakeFiles/3.21.4/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_LOADED 1)$/;"	v
+CMAKE_SYSTEM_NAME	web_api/build/CMakeFiles/3.21.4/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_NAME "Linux")$/;"	v
+CMAKE_SYSTEM_PROCESSOR	web_api/build/CMakeFiles/3.21.4/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_PROCESSOR "x86_64")$/;"	v
+CMAKE_SYSTEM_VERSION	web_api/build/CMakeFiles/3.21.4/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_VERSION "5.14.15-arch1-1")$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	web_api/build/CMakeFiles/web_api-lib.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	web_api/build/CMakeFiles/web_api-test.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	web_api/build/CMakeFiles/web_api.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+COMPILER_ID	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_ID /;"	d	file:
+COMPILER_ID	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	file:
+COMPILER_VERSION	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION /;"	d	file:
+COMPILER_VERSION	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION /;"	d	file:
+COMPILER_VERSION_INTERNAL	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL_STR	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_INTERNAL_STR /;"	d	file:
+COMPILER_VERSION_INTERNAL_STR	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_INTERNAL_STR /;"	d	file:
+COMPILER_VERSION_MAJOR	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^  # define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MINOR	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^  # define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_PATCH	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^  # define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_TWEAK	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_TWEAK /;"	d	file:
+COMPILER_VERSION_TWEAK	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_TWEAK /;"	d	file:
+COMPILER_VERSION_TWEAK	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_TWEAK /;"	d	file:
+COMPILER_VERSION_TWEAK	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_TWEAK /;"	d	file:
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	Makefile.in	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile.in	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	Makefile.in	/^CPPFLAGS = @CPPFLAGS@$/;"	m
+CRUD_DATABASECOMPONENT_HPP	web_api/src/DatabaseComponent.hpp	/^#define CRUD_DATABASECOMPONENT_HPP$/;"	d
+CRUD_ERRORHANDLER_HPP	web_api/src/ErrorHandler.hpp	/^#define CRUD_ERRORHANDLER_HPP$/;"	d
+CRUD_PAGEDTO_HPP	web_api/src/dto/PageDto.hpp	/^#define CRUD_PAGEDTO_HPP$/;"	d
+CRUD_STATICCONTROLLER_HPP	web_api/src/controller/StaticController.hpp	/^#define CRUD_STATICCONTROLLER_HPP$/;"	d
+CRUD_STATUSDTO_HPP	web_api/src/dto/StatusDto.hpp	/^#define CRUD_STATUSDTO_HPP$/;"	d
+CRUD_USERDB_HPP	web_api/src/db/UserDb.hpp	/^#define CRUD_USERDB_HPP$/;"	d
+CRUD_USERSERVICE_HPP	web_api/src/service/UserService.hpp	/^#define CRUD_USERSERVICE_HPP$/;"	d
+CRoot	main.cpp	/^CRoot::CRoot(void) { m_log_manager.initFromConfig("logconfig"); }$/;"	f	class:dualarms::CRoot
+CSCOPE	Makefile	/^CSCOPE = cscope$/;"	m
+CSCOPE	Makefile.in	/^CSCOPE = @CSCOPE@$/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	Makefile	/^CTAGS: ctags$/;"	t
+CTAGS	Makefile.in	/^CTAGS = @CTAGS@$/;"	m
+CTAGS	Makefile.in	/^CTAGS: ctags$/;"	t
+CXX	Makefile	/^CXX = g++$/;"	m
+CXX	Makefile.in	/^CXX = @CXX@$/;"	m
+CXXCOMPILE	Makefile	/^CXXCOMPILE = $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \\$/;"	m
+CXXCOMPILE	Makefile.in	/^CXXCOMPILE = $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \\$/;"	m
+CXXDEPMODE	Makefile.in	/^CXXDEPMODE = @CXXDEPMODE@$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	Makefile.in	/^CXXFLAGS = @CXXFLAGS@$/;"	m
+CXXLD	Makefile	/^CXXLD = $(CXX)$/;"	m
+CXXLD	Makefile.in	/^CXXLD = $(CXX)$/;"	m
+CXXLINK	Makefile	/^CXXLINK = $(CXXLD) $(AM_CXXFLAGS) $(CXXFLAGS) $(AM_LDFLAGS) $(LDFLAGS) \\$/;"	m
+CXXLINK	Makefile.in	/^CXXLINK = $(CXXLD) $(AM_CXXFLAGS) $(CXXFLAGS) $(AM_LDFLAGS) $(LDFLAGS) \\$/;"	m
+CXX_STD	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#      define CXX_STD /;"	d	file:
+CXX_STD	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#    define CXX_STD /;"	d	file:
+CXX_STD	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define CXX_STD /;"	d	file:
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	Makefile.in	/^CYGPATH_W = @CYGPATH_W@$/;"	m
+CYGWIN	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^  set(CYGWIN 1)$/;"	v
+CYGWIN	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^  set(CYGWIN 1)$/;"	v
+C_DIALECT	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^#  define C_DIALECT /;"	d	file:
+C_DIALECT	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^#  define C_DIALECT$/;"	d	file:
+C_DIALECT	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^# define C_DIALECT /;"	d	file:
+DEC	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^#define DEC(/;"	d	file:
+DEC	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define DEC(/;"	d	file:
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I.$/;"	m
+DEFAULT_INCLUDES	Makefile.in	/^DEFAULT_INCLUDES = -I.@am__isrc@$/;"	m
+DEFS	Makefile	/^DEFS = -DPACKAGE_NAME=\\"Dualarms\\" -DPACKAGE_TARNAME=\\"dualarms\\" -DPACKAGE_VERSION=\\"0.1\\/;"	m
+DEFS	Makefile.in	/^DEFS = @DEFS@$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	Makefile.in	/^DEPDIR = @DEPDIR@$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	Makefile.in	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(am__DIST_COMMON)$/;"	m
+DIST_COMMON	Makefile.in	/^DIST_COMMON = $(srcdir)\/Makefile.am $(am__DIST_COMMON)$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(Dualarms_SOURCES)$/;"	m
+DIST_SOURCES	Makefile.in	/^DIST_SOURCES = $(Dualarms_SOURCES)$/;"	m
+DTO_FIELD_INFO	web_api/src/dto/StatusDto.hpp	/^  DTO_FIELD_INFO(code) {$/;"	f	class:StatusDto
+DTO_FIELD_INFO	web_api/src/dto/StatusDto.hpp	/^  DTO_FIELD_INFO(message) {$/;"	f	class:StatusDto
+DTO_INIT	web_api/src/dto/StatusDto.hpp	/^  DTO_INIT(StatusDto, DTO)$/;"	f	class:StatusDto
+DatabaseComponent	web_api/src/DatabaseComponent.hpp	/^class DatabaseComponent {$/;"	c
+DatabaseTestClient_hpp	web_api/test/app/TestClient.hpp	/^#define DatabaseTestClient_hpp$/;"	d
+Dualarms	Makefile.am	/^bin_PROGRAMS = Dualarms $/;"	P	directory:bin
+Dualarms$(EXEEXT)	Makefile	/^Dualarms$(EXEEXT): $(Dualarms_OBJECTS) $(Dualarms_DEPENDENCIES) $(EXTRA_Dualarms_DEPENDENCIES) $/;"	t
+Dualarms$(EXEEXT)	Makefile.in	/^Dualarms$(EXEEXT): $(Dualarms_OBJECTS) $(Dualarms_DEPENDENCIES) $(EXTRA_Dualarms_DEPENDENCIES) $/;"	t
+Dualarms_DEPENDENCIES	Makefile	/^Dualarms_DEPENDENCIES = $(top_builddir)\/lib\/libutil.a$/;"	m
+Dualarms_DEPENDENCIES	Makefile.in	/^Dualarms_DEPENDENCIES = $(top_builddir)\/lib\/libutil.a$/;"	m
+Dualarms_LDADD	Makefile	/^Dualarms_LDADD = $(top_builddir)\/lib\/libutil.a -lboost_log -lpthread -lboost_thread -lboost_sy/;"	m
+Dualarms_LDADD	Makefile.am	/^Dualarms_LDADD = $(top_builddir)\/lib\/libutil.a -lboost_log -lpthread -lboost_thread -lboost_sy/;"	m
+Dualarms_LDADD	Makefile.in	/^Dualarms_LDADD = $(top_builddir)\/lib\/libutil.a -lboost_log -lpthread -lboost_thread -lboost_sy/;"	m
+Dualarms_LDFLAGS	Makefile	/^Dualarms_LDFLAGS = -DBOOST_LOG_DYN_LINK $/;"	m
+Dualarms_LDFLAGS	Makefile.am	/^Dualarms_LDFLAGS = -DBOOST_LOG_DYN_LINK $/;"	m
+Dualarms_LDFLAGS	Makefile.in	/^Dualarms_LDFLAGS = -DBOOST_LOG_DYN_LINK $/;"	m
+Dualarms_LINK	Makefile	/^Dualarms_LINK = $(CXXLD) $(AM_CXXFLAGS) $(CXXFLAGS) \\$/;"	m
+Dualarms_LINK	Makefile.in	/^Dualarms_LINK = $(CXXLD) $(AM_CXXFLAGS) $(CXXFLAGS) \\$/;"	m
+Dualarms_OBJECTS	Makefile	/^Dualarms_OBJECTS = $(am_Dualarms_OBJECTS)$/;"	m
+Dualarms_OBJECTS	Makefile.in	/^Dualarms_OBJECTS = $(am_Dualarms_OBJECTS)$/;"	m
+Dualarms_SOURCES	Makefile	/^Dualarms_SOURCES = main.cpp$/;"	m
+Dualarms_SOURCES	Makefile.am	/^Dualarms_SOURCES = main.cpp$/;"	m
+Dualarms_SOURCES	Makefile.in	/^Dualarms_SOURCES = main.cpp$/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_C	Makefile.in	/^ECHO_C = @ECHO_C@$/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	Makefile.in	/^ECHO_N = @ECHO_N@$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+ECHO_T	Makefile.in	/^ECHO_T = @ECHO_T@$/;"	m
+ENDPOINT_INFO	web_api/src/controller/UserController.hpp	/^  ENDPOINT_INFO(createUser) {$/;"	f	class:UserController
+ENDPOINT_INFO	web_api/src/controller/UserController.hpp	/^  ENDPOINT_INFO(deleteUser) {$/;"	f	class:UserController
+ENDPOINT_INFO	web_api/src/controller/UserController.hpp	/^  ENDPOINT_INFO(getUserById) {$/;"	f	class:UserController
+ENDPOINT_INFO	web_api/src/controller/UserController.hpp	/^  ENDPOINT_INFO(getUsers) {$/;"	f	class:UserController
+ENDPOINT_INFO	web_api/src/controller/UserController.hpp	/^  ENDPOINT_INFO(putUser) {$/;"	f	class:UserController
+EQUALS	web_api/build/Makefile	/^EQUALS = =$/;"	m
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+ETAGS	Makefile.in	/^ETAGS = @ETAGS@$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+EXEEXT	Makefile.in	/^EXEEXT = @EXEEXT@$/;"	m
+ErrorHandler	web_api/src/ErrorHandler.cpp	/^ErrorHandler::ErrorHandler(const std::shared_ptr<oatpp::data::mapping::ObjectMapper>& objectMapp/;"	f	class:ErrorHandler
+ErrorHandler	web_api/src/ErrorHandler.hpp	/^class ErrorHandler : public oatpp::web::server::handler::ErrorHandler {$/;"	c
+GTAGS	Makefile	/^GTAGS:$/;"	t
+GTAGS	Makefile.in	/^GTAGS:$/;"	t
+HEX	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^#define HEX(/;"	d	file:
+HEX	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define HEX(/;"	d	file:
+ID	Makefile	/^ID: $(am__tagged_files)$/;"	t
+ID	Makefile.in	/^ID: $(am__tagged_files)$/;"	t
+ID_VOID_MAIN	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^# define ID_VOID_MAIN$/;"	d	file:
+INSTALL	Makefile	/^INSTALL = \/bin\/install -c$/;"	m
+INSTALL	Makefile.in	/^INSTALL = @INSTALL@$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	Makefile.in	/^INSTALL_DATA = @INSTALL_DATA@$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	Makefile.in	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	Makefile.in	/^INSTALL_PROGRAM = @INSTALL_PROGRAM@$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile.in	/^INSTALL_SCRIPT = @INSTALL_SCRIPT@$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile.in	/^INSTALL_STRIP_PROGRAM = @INSTALL_STRIP_PROGRAM@$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	Makefile.in	/^LDFLAGS = @LDFLAGS@$/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	Makefile.in	/^LIBOBJS = @LIBOBJS@$/;"	m
+LIBS	Makefile	/^LIBS = $/;"	m
+LIBS	Makefile.in	/^LIBS = @LIBS@$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	Makefile.in	/^LTLIBOBJS = @LTLIBOBJS@$/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} '\/home\/roley\/Project\/Dualarms\/missing' makeinfo$/;"	m
+MAKEINFO	Makefile.in	/^MAKEINFO = @MAKEINFO@$/;"	m
+MINGW	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^  set(MINGW 1)$/;"	v
+MINGW	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^  set(MINGW 1)$/;"	v
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	Makefile.in	/^MKDIR_P = @MKDIR_P@$/;"	m
+Makefile	Makefile	/^Makefile: $(srcdir)\/Makefile.in $(top_builddir)\/config.status$/;"	t
+Makefile	Makefile.in	/^Makefile: $(srcdir)\/Makefile.in $(top_builddir)\/config.status$/;"	t
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	Makefile.in	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile.in	/^NORMAL_UNINSTALL = :$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	Makefile.in	/^OBJEXT = @OBJEXT@$/;"	m
+OutgoingResponse	web_api/src/ErrorHandler.hpp	/^  typedef oatpp::web::protocol::http::outgoing::Response OutgoingResponse;$/;"	t	class:ErrorHandler	typeref:typename:oatpp::web::protocol::http::outgoing::Response
+PACKAGE	Makefile	/^PACKAGE = dualarms$/;"	m
+PACKAGE	Makefile.in	/^PACKAGE = @PACKAGE@$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = roley.z@richtechsystem.com$/;"	m
+PACKAGE_BUGREPORT	Makefile.in	/^PACKAGE_BUGREPORT = @PACKAGE_BUGREPORT@$/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = Dualarms$/;"	m
+PACKAGE_NAME	Makefile.in	/^PACKAGE_NAME = @PACKAGE_NAME@$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = Dualarms 0.1$/;"	m
+PACKAGE_STRING	Makefile.in	/^PACKAGE_STRING = @PACKAGE_STRING@$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = dualarms$/;"	m
+PACKAGE_TARNAME	Makefile.in	/^PACKAGE_TARNAME = @PACKAGE_TARNAME@$/;"	m
+PACKAGE_URL	Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	Makefile.in	/^PACKAGE_URL = @PACKAGE_URL@$/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 0.1$/;"	m
+PACKAGE_VERSION	Makefile.in	/^PACKAGE_VERSION = @PACKAGE_VERSION@$/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	Makefile.in	/^PATH_SEPARATOR = @PATH_SEPARATOR@$/;"	m
+PLATFORM_ID	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^#  define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^#  define PLATFORM_ID$/;"	d	file:
+PLATFORM_ID	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^# define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^# define PLATFORM_ID$/;"	d	file:
+PLATFORM_ID	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define PLATFORM_ID$/;"	d	file:
+PLATFORM_ID	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID$/;"	d	file:
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	Makefile.in	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	Makefile.in	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	Makefile.in	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile.in	/^PRE_UNINSTALL = :$/;"	m
+PROGRAMS	Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+PROGRAMS	Makefile.in	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+PageDto	web_api/src/dto/PageDto.hpp	/^class PageDto : public oatpp::DTO {$/;"	c
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	Makefile.in	/^RANLIB = @RANLIB@$/;"	m
+RM	web_api/build/Makefile	/^RM = \/usr\/bin\/cmake -E rm -f$/;"	m
+ResponseFactory	web_api/src/ErrorHandler.hpp	/^  typedef oatpp::web::protocol::http::outgoing::ResponseFactory ResponseFactory;$/;"	t	class:ErrorHandler	typeref:typename:oatpp::web::protocol::http::outgoing::ResponseFactory
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	Makefile.in	/^SET_MAKE = @SET_MAKE@$/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	Makefile.in	/^SHELL = @SHELL@$/;"	m
+SHELL	web_api/build/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SIMULATE_ID	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_ID /;"	d	file:
+SIMULATE_ID	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^# define SIMULATE_ID /;"	d	file:
+SIMULATE_ID	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_ID /;"	d	file:
+SIMULATE_ID	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_ID /;"	d	file:
+SIMULATE_VERSION_MAJOR	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MAJOR	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^# define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MAJOR	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MAJOR	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MINOR	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_MINOR	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^# define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_MINOR	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_MINOR	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_PATCH	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_VERSION_PATCH /;"	d	file:
+SIMULATE_VERSION_PATCH	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^# define SIMULATE_VERSION_PATCH /;"	d	file:
+SIMULATE_VERSION_PATCH	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_PATCH /;"	d	file:
+SIMULATE_VERSION_PATCH	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_PATCH /;"	d	file:
+SOURCES	Makefile	/^SOURCES = $(Dualarms_SOURCES)$/;"	m
+SOURCES	Makefile.in	/^SOURCES = $(Dualarms_SOURCES)$/;"	m
+STRINGIFY	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^#define STRINGIFY(/;"	d	file:
+STRINGIFY	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define STRINGIFY(/;"	d	file:
+STRINGIFY_HELPER	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^#define STRINGIFY_HELPER(/;"	d	file:
+STRINGIFY_HELPER	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define STRINGIFY_HELPER(/;"	d	file:
+STRIP	Makefile	/^STRIP = $/;"	m
+STRIP	Makefile.in	/^STRIP = @STRIP@$/;"	m
+StaticController	web_api/src/controller/StaticController.hpp	/^  StaticController(const std::shared_ptr<ObjectMapper>& objectMapper)$/;"	f	class:StaticController
+StaticController	web_api/src/controller/StaticController.hpp	/^class StaticController : public oatpp::web::server::api::ApiController {$/;"	c
+Status	web_api/src/ErrorHandler.hpp	/^  typedef oatpp::web::protocol::http::Status Status;$/;"	t	class:ErrorHandler	typeref:typename:oatpp::web::protocol::http::Status
+Status	web_api/src/service/UserService.hpp	/^  typedef oatpp::web::protocol::http::Status Status;$/;"	t	class:UserService	typeref:typename:oatpp::web::protocol::http::Status
+StatusDto	web_api/src/dto/StatusDto.hpp	/^class StatusDto : public oatpp::DTO {$/;"	c
+SwaggerComponent	web_api/src/SwaggerComponent.hpp	/^class SwaggerComponent {$/;"	c
+SwaggerComponent_hpp	web_api/src/SwaggerComponent.hpp	/^#define SwaggerComponent_hpp$/;"	d
+TAGS	Makefile	/^TAGS: tags$/;"	t
+TAGS	Makefile.in	/^TAGS: tags$/;"	t
+TEST_DATABASECOMPONENT_HPP	web_api/test/app/TestDatabaseComponent.hpp	/^#define TEST_DATABASECOMPONENT_HPP$/;"	d
+TestClient	web_api/test/app/TestClient.hpp	/^class TestClient : public oatpp::web::client::ApiClient {$/;"	c
+TestComponent	web_api/test/app/TestComponent.hpp	/^class TestComponent {$/;"	c
+TestComponent_hpp	web_api/test/app/TestComponent.hpp	/^#define TestComponent_hpp$/;"	d
+TestDatabaseComponent	web_api/test/app/TestDatabaseComponent.hpp	/^class TestDatabaseComponent {$/;"	c
+UNIX	web_api/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake	/^  set(UNIX 1)$/;"	v
+UNIX	web_api/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake	/^  set(UNIX 1)$/;"	v
+UserController	web_api/src/controller/UserController.hpp	/^  UserController(OATPP_COMPONENT(std::shared_ptr<ObjectMapper>, objectMapper))$/;"	f	class:UserController
+UserController	web_api/src/controller/UserController.hpp	/^class UserController : public oatpp::web::server::api::ApiController {$/;"	c
+UserControllerTest	web_api/test/UserControllerTest.hpp	/^    UserControllerTest() : oatpp::test::UnitTest("TEST[UserControllerTest]")$/;"	f	class:UserControllerTest
+UserControllerTest	web_api/test/UserControllerTest.hpp	/^class UserControllerTest : public oatpp::test::UnitTest {$/;"	c
+UserControllerTest_hpp	web_api/test/UserControllerTest.hpp	/^#define UserControllerTest_hpp$/;"	d
+UserController_hpp	web_api/src/controller/UserController.hpp	/^#define UserController_hpp$/;"	d
+UserDb	web_api/src/db/UserDb.hpp	/^  UserDb(const std::shared_ptr<oatpp::orm::Executor>& executor)$/;"	f	class:UserDb
+UserDb	web_api/src/db/UserDb.hpp	/^class UserDb : public oatpp::orm::DbClient {$/;"	c
+UserDto	web_api/src/dto/UserDto.hpp	/^class UserDto : public oatpp::DTO {$/;"	c
+UserDto_hpp	web_api/src/dto/UserDto.hpp	/^#define UserDto_hpp$/;"	d
+UserService	web_api/src/service/UserService.hpp	/^class UserService {$/;"	c
+UsersPageDto	web_api/src/dto/PageDto.hpp	/^class UsersPageDto : public PageDto<oatpp::Object<UserDto>> {$/;"	c
+VERSION	Makefile	/^VERSION = 0.1$/;"	m
+VERSION	Makefile.in	/^VERSION = @VERSION@$/;"	m
+VPATH	Makefile.in	/^VPATH = @srcdir@$/;"	m
+__anon0e3230c00102	web_api/src/DatabaseComponent.hpp	/^  OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::provider::Provider<oatpp::sqlite::Connection>>, /;"	f	class:DatabaseComponent	file:
+__anon0e3230c00202	web_api/src/DatabaseComponent.hpp	/^  OATPP_CREATE_COMPONENT(std::shared_ptr<UserDb>, userDb)([] {$/;"	f	class:DatabaseComponent	file:
+__anon18ce660e0102	web_api/test/UserControllerTest.cpp	/^  runner.run([this, &runner] {$/;"	f	function:UserControllerTest::onRun	file:
+__anon9d0d1aac0102	web_api/src/AppComponent.hpp	/^  OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::data::mapping::ObjectMapper>, apiObjectMapper)([/;"	f	class:AppComponent	file:
+__anon9d0d1aac0202	web_api/src/AppComponent.hpp	/^  OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::network::ServerConnectionProvider>, serverConnec/;"	f	class:AppComponent	file:
+__anon9d0d1aac0302	web_api/src/AppComponent.hpp	/^  OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::web::server::HttpRouter>, httpRouter)([] {$/;"	f	class:AppComponent	file:
+__anon9d0d1aac0402	web_api/src/AppComponent.hpp	/^  OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::network::ConnectionHandler>, serverConnectionHan/;"	f	class:AppComponent	file:
+__anonbb4a259b0102	web_api/src/SwaggerComponent.hpp	/^  OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::swagger::DocumentInfo>, swaggerDocumentInfo)([] /;"	f	class:SwaggerComponent	file:
+__anonbb4a259b0202	web_api/src/SwaggerComponent.hpp	/^  OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::swagger::Resources>, swaggerResources)([] {$/;"	f	class:SwaggerComponent	file:
+__anoncd69109e0111	web_api/test/tests.cpp	/^namespace {$/;"	n	file:
+__anondca2f5730102	web_api/test/app/TestComponent.hpp	/^  OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::network::virtual_::Interface>, virtualInterface)/;"	f	class:TestComponent	file:
+__anondca2f5730202	web_api/test/app/TestComponent.hpp	/^  OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::network::ServerConnectionProvider>, serverConnec/;"	f	class:TestComponent	file:
+__anondca2f5730302	web_api/test/app/TestComponent.hpp	/^  OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::network::ClientConnectionProvider>, clientConnec/;"	f	class:TestComponent	file:
+__anondca2f5730402	web_api/test/app/TestComponent.hpp	/^  OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::web::server::HttpRouter>, httpRouter)([] {$/;"	f	class:TestComponent	file:
+__anondca2f5730502	web_api/test/app/TestComponent.hpp	/^  OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::network::ConnectionHandler>, serverConnectionHan/;"	f	class:TestComponent	file:
+__anondca2f5730602	web_api/test/app/TestComponent.hpp	/^  OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::data::mapping::ObjectMapper>, apiObjectMapper)([/;"	f	class:TestComponent	file:
+__anone7fc89480102	web_api/test/app/TestDatabaseComponent.hpp	/^  OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::provider::Provider<oatpp::sqlite::Connection>>, /;"	f	class:TestDatabaseComponent	file:
+__anone7fc89480202	web_api/test/app/TestDatabaseComponent.hpp	/^  OATPP_CREATE_COMPONENT(std::shared_ptr<UserDb>, userDb)([] {$/;"	f	class:TestDatabaseComponent	file:
+__has_include	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^#  define __has_include(/;"	d	file:
+__has_include	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define __has_include(/;"	d	file:
+abs_builddir	Makefile	/^abs_builddir = \/home\/roley\/Project\/Dualarms\/src$/;"	m
+abs_builddir	Makefile.in	/^abs_builddir = @abs_builddir@$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/roley\/Project\/Dualarms\/src$/;"	m
+abs_srcdir	Makefile.in	/^abs_srcdir = @abs_srcdir@$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/roley\/Project\/Dualarms$/;"	m
+abs_top_builddir	Makefile.in	/^abs_top_builddir = @abs_top_builddir@$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/roley\/Project\/Dualarms$/;"	m
+abs_top_srcdir	Makefile.in	/^abs_top_srcdir = @abs_top_srcdir@$/;"	m
+ac_ct_AR	Makefile	/^ac_ct_AR = ar$/;"	m
+ac_ct_AR	Makefile.in	/^ac_ct_AR = @ac_ct_AR@$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	Makefile.in	/^ac_ct_CC = @ac_ct_CC@$/;"	m
+ac_ct_CXX	Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	Makefile.in	/^ac_ct_CXX = @ac_ct_CXX@$/;"	m
+all	Makefile	/^all: all-am$/;"	t
+all	Makefile.in	/^all: all-am$/;"	t
+all	web_api/build/Makefile	/^all: cmake_check_build_system$/;"	t
+all-am	Makefile	/^all-am: Makefile $(PROGRAMS)$/;"	t
+all-am	Makefile.in	/^all-am: Makefile $(PROGRAMS)$/;"	t
+am--depfiles	Makefile	/^am--depfiles: $(am__depfiles_remade)$/;"	t
+am--depfiles	Makefile.in	/^am--depfiles: $(am__depfiles_remade)$/;"	t
+am_Dualarms_OBJECTS	Makefile	/^am_Dualarms_OBJECTS = main.$(OBJEXT)$/;"	m
+am_Dualarms_OBJECTS	Makefile.in	/^am_Dualarms_OBJECTS = main.$(OBJEXT)$/;"	m
+am__DIST_COMMON	Makefile	/^am__DIST_COMMON = $(srcdir)\/Makefile.in $(top_srcdir)\/depcomp$/;"	m
+am__DIST_COMMON	Makefile.in	/^am__DIST_COMMON = $(srcdir)\/Makefile.in $(top_srcdir)\/depcomp$/;"	m
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__aclocal_m4_deps	Makefile.in	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__can_run_installinfo	Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__can_run_installinfo	Makefile.in	/^am__can_run_installinfo = \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	Makefile.in	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	Makefile.in	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__define_uniq_tagged_files	Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__define_uniq_tagged_files	Makefile.in	/^am__define_uniq_tagged_files = \\$/;"	m
+am__depfiles_remade	Makefile	/^am__depfiles_remade = .\/$(DEPDIR)\/main.Po$/;"	m
+am__depfiles_remade	Makefile.in	/^am__depfiles_remade = .\/$(DEPDIR)\/main.Po$/;"	m
+am__include	Makefile.in	/^am__include = @am__include@$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)"$/;"	m
+am__installdirs	Makefile.in	/^am__installdirs = "$(DESTDIR)$(bindir)"$/;"	m
+am__is_gnu_make	Makefile	/^am__is_gnu_make = { \\$/;"	m
+am__is_gnu_make	Makefile.in	/^am__is_gnu_make = { \\$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	Makefile.in	/^am__leading_dot = @am__leading_dot@$/;"	m
+am__make_dryrun	Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_dryrun	Makefile.in	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	Makefile.in	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_running_with_option	Makefile	/^am__make_running_with_option = \\$/;"	m
+am__make_running_with_option	Makefile.in	/^am__make_running_with_option = \\$/;"	m
+am__maybe_remake_depfiles	Makefile	/^am__maybe_remake_depfiles = depfiles$/;"	m
+am__maybe_remake_depfiles	Makefile.in	/^am__maybe_remake_depfiles = depfiles$/;"	m
+am__mv	Makefile	/^am__mv = mv -f$/;"	m
+am__mv	Makefile.in	/^am__mv = mv -f$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__quote	Makefile.in	/^am__quote = @am__quote@$/;"	m
+am__tagged_files	Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)$/;"	m
+am__tagged_files	Makefile.in	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)$/;"	m
+am__tar	Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__tar	Makefile.in	/^am__tar = @am__tar@$/;"	m
+am__uniquify_input	Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__uniquify_input	Makefile.in	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__untar	Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__untar	Makefile.in	/^am__untar = @am__untar@$/;"	m
+am__v_CXXLD_	Makefile	/^am__v_CXXLD_ = $(am__v_CXXLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CXXLD_	Makefile.in	/^am__v_CXXLD_ = $(am__v_CXXLD_@AM_DEFAULT_V@)$/;"	m
+am__v_CXXLD_0	Makefile	/^am__v_CXXLD_0 = @echo "  CXXLD   " $@;$/;"	m
+am__v_CXXLD_0	Makefile.in	/^am__v_CXXLD_0 = @echo "  CXXLD   " $@;$/;"	m
+am__v_CXXLD_1	Makefile	/^am__v_CXXLD_1 = $/;"	m
+am__v_CXXLD_1	Makefile.in	/^am__v_CXXLD_1 = $/;"	m
+am__v_CXX_	Makefile	/^am__v_CXX_ = $(am__v_CXX_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CXX_	Makefile.in	/^am__v_CXX_ = $(am__v_CXX_@AM_DEFAULT_V@)$/;"	m
+am__v_CXX_0	Makefile	/^am__v_CXX_0 = @echo "  CXX     " $@;$/;"	m
+am__v_CXX_0	Makefile.in	/^am__v_CXX_0 = @echo "  CXX     " $@;$/;"	m
+am__v_CXX_1	Makefile	/^am__v_CXX_1 = $/;"	m
+am__v_CXX_1	Makefile.in	/^am__v_CXX_1 = $/;"	m
+am__v_GEN_	Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_	Makefile.in	/^am__v_GEN_ = $(am__v_GEN_@AM_DEFAULT_V@)$/;"	m
+am__v_GEN_0	Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_0	Makefile.in	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_1	Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_GEN_1	Makefile.in	/^am__v_GEN_1 = $/;"	m
+am__v_P_	Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_	Makefile.in	/^am__v_P_ = $(am__v_P_@AM_DEFAULT_V@)$/;"	m
+am__v_P_0	Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_0	Makefile.in	/^am__v_P_0 = false$/;"	m
+am__v_P_1	Makefile	/^am__v_P_1 = :$/;"	m
+am__v_P_1	Makefile.in	/^am__v_P_1 = :$/;"	m
+am__v_at_	Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_	Makefile.in	/^am__v_at_ = $(am__v_at_@AM_DEFAULT_V@)$/;"	m
+am__v_at_0	Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_0	Makefile.in	/^am__v_at_0 = @$/;"	m
+am__v_at_1	Makefile	/^am__v_at_1 = $/;"	m
+am__v_at_1	Makefile.in	/^am__v_at_1 = $/;"	m
+bin_PROGRAMS	Makefile	/^bin_PROGRAMS = Dualarms$(EXEEXT)$/;"	m
+bin_PROGRAMS	Makefile.am	/^bin_PROGRAMS = Dualarms $/;"	m
+bin_PROGRAMS	Makefile.in	/^bin_PROGRAMS = Dualarms$(EXEEXT)$/;"	m
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	Makefile.in	/^bindir = @bindir@$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_alias	Makefile.in	/^build_alias = @build_alias@$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+builddir	Makefile.in	/^builddir = @builddir@$/;"	m
+check	Makefile	/^check: check-am$/;"	t
+check	Makefile.in	/^check: check-am$/;"	t
+check-am	Makefile	/^check-am: all-am$/;"	t
+check-am	Makefile.in	/^check-am: all-am$/;"	t
+clean	Makefile	/^clean: clean-am$/;"	t
+clean	Makefile.in	/^clean: clean-am$/;"	t
+clean	web_api/build/Makefile	/^clean:$/;"	t
+clean-am	Makefile	/^clean-am: clean-binPROGRAMS clean-generic mostlyclean-am$/;"	t
+clean-am	Makefile.in	/^clean-am: clean-binPROGRAMS clean-generic mostlyclean-am$/;"	t
+clean-binPROGRAMS	Makefile	/^clean-binPROGRAMS:$/;"	t
+clean-binPROGRAMS	Makefile.in	/^clean-binPROGRAMS:$/;"	t
+clean-generic	Makefile	/^clean-generic:$/;"	t
+clean-generic	Makefile.in	/^clean-generic:$/;"	t
+clean/fast	web_api/build/Makefile	/^clean\/fast: clean$/;"	t
+cmake_check_build_system	web_api/build/Makefile	/^cmake_check_build_system:$/;"	t
+cmake_force	web_api/build/Makefile	/^cmake_force:$/;"	t
+const	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^# define const$/;"	d	file:
+createShared	web_api/src/controller/StaticController.hpp	/^  static std::shared_ptr<StaticController> createShared($/;"	f	class:StaticController	typeref:typename:std::shared_ptr<StaticController>
+createShared	web_api/src/controller/UserController.hpp	/^  static std::shared_ptr<UserController> createShared($/;"	f	class:UserController	typeref:typename:std::shared_ptr<UserController>
+createUser	web_api/src/service/UserService.cpp	/^oatpp::Object<UserDto> UserService::createUser(const oatpp::Object<UserDto>& dto) {$/;"	f	class:UserService	typeref:typename:oatpp::Object<UserDto>
+cscopelist	Makefile	/^cscopelist: cscopelist-am$/;"	t
+cscopelist	Makefile.in	/^cscopelist: cscopelist-am$/;"	t
+cscopelist-am	Makefile	/^cscopelist-am: $(am__tagged_files)$/;"	t
+cscopelist-am	Makefile.in	/^cscopelist-am: $(am__tagged_files)$/;"	t
+ctags	Makefile	/^ctags: ctags-am$/;"	t
+ctags	Makefile.in	/^ctags: ctags-am$/;"	t
+ctags-am	Makefile	/^ctags-am: $(TAGS_DEPENDENCIES) $(am__tagged_files)$/;"	t
+ctags-am	Makefile.in	/^ctags-am: $(TAGS_DEPENDENCIES) $(am__tagged_files)$/;"	t
+databaseComponent	web_api/src/AppComponent.hpp	/^  DatabaseComponent databaseComponent;$/;"	m	class:AppComponent	typeref:typename:DatabaseComponent
+databaseComponent	web_api/test/app/TestComponent.hpp	/^  TestDatabaseComponent databaseComponent;$/;"	m	class:TestComponent	typeref:typename:TestDatabaseComponent
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	Makefile.in	/^datadir = @datadir@$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	Makefile.in	/^datarootdir = @datarootdir@$/;"	m
+default_target	web_api/build/Makefile	/^default_target: all$/;"	t
+deleteUserById	web_api/src/service/UserService.cpp	/^oatpp::Object<StatusDto> UserService::deleteUserById(const oatpp::Int32& userId) {$/;"	f	class:UserService	typeref:typename:oatpp::Object<StatusDto>
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+depcomp	Makefile.in	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+depend	web_api/build/Makefile	/^depend:$/;"	t
+distclean	Makefile	/^distclean: distclean-am$/;"	t
+distclean	Makefile.in	/^distclean: distclean-am$/;"	t
+distclean-am	Makefile	/^distclean-am: clean-am distclean-compile distclean-generic \\$/;"	t
+distclean-am	Makefile.in	/^distclean-am: clean-am distclean-compile distclean-generic \\$/;"	t
+distclean-compile	Makefile	/^distclean-compile:$/;"	t
+distclean-compile	Makefile.in	/^distclean-compile:$/;"	t
+distclean-generic	Makefile	/^distclean-generic:$/;"	t
+distclean-generic	Makefile.in	/^distclean-generic:$/;"	t
+distclean-tags	Makefile	/^distclean-tags:$/;"	t
+distclean-tags	Makefile.in	/^distclean-tags:$/;"	t
+distdir	Makefile	/^distdir: $(BUILT_SOURCES)$/;"	t
+distdir	Makefile.in	/^distdir: $(BUILT_SOURCES)$/;"	t
+distdir-am	Makefile	/^distdir-am: $(DISTFILES)$/;"	t
+distdir-am	Makefile.in	/^distdir-am: $(DISTFILES)$/;"	t
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	Makefile.in	/^docdir = @docdir@$/;"	m
+dualarms	main.cpp	/^namespace dualarms {$/;"	n	file:
+dvi	Makefile	/^dvi: dvi-am$/;"	t
+dvi	Makefile.in	/^dvi: dvi-am$/;"	t
+dvi-am	Makefile	/^dvi-am:$/;"	t
+dvi-am	Makefile.in	/^dvi-am:$/;"	t
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	Makefile.in	/^dvidir = @dvidir@$/;"	m
+edit_cache	web_api/build/Makefile	/^edit_cache:$/;"	t
+edit_cache/fast	web_api/build/Makefile	/^edit_cache\/fast: edit_cache$/;"	t
+email	web_api/sql/001_init.sql	/^    email       VARCHAR UNIQUE,$/;"	E	table:AppUser
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	Makefile.in	/^exec_prefix = @exec_prefix@$/;"	m
+flag	main.cpp	/^static bool flag = true;$/;"	v	typeref:typename:bool	file:
+getAllUsers	web_api/src/service/UserService.cpp	/^oatpp::Object<PageDto<oatpp::Object<UserDto>>> UserService::getAllUsers(const oatpp::UInt32& off/;"	f	class:UserService	typeref:typename:oatpp::Object<PageDto<oatpp::Object<UserDto>>>
+getUserById	web_api/src/service/UserService.cpp	/^oatpp::Object<UserDto> UserService::getUserById(const oatpp::Int32& id, const oatpp::provider::R/;"	f	class:UserService	typeref:typename:oatpp::Object<UserDto>
+handleError	web_api/src/ErrorHandler.cpp	/^ErrorHandler::handleError(const Status& status, const oatpp::String& message, const Headers& hea/;"	f	class:ErrorHandler	typeref:typename:std::shared_ptr<ErrorHandler::OutgoingResponse>
+handler	main.cpp	/^void handler(int sig) {$/;"	f	typeref:typename:void
+help	web_api/build/Makefile	/^help:$/;"	t
+host_alias	Makefile	/^host_alias = $/;"	m
+host_alias	Makefile.in	/^host_alias = @host_alias@$/;"	m
+html	Makefile	/^html: html-am$/;"	t
+html	Makefile.in	/^html: html-am$/;"	t
+html	web_api/src/controller/StaticController.hpp	/^    const char* html =$/;"	m	class:StaticController	typeref:typename:const char *
+html-am	Makefile	/^html-am:$/;"	t
+html-am	Makefile.in	/^html-am:$/;"	t
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	Makefile.in	/^htmldir = @htmldir@$/;"	m
+id	web_api/sql/001_init.sql	/^    id          INTEGER PRIMARY KEY,$/;"	E	table:AppUser
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	Makefile.in	/^includedir = @includedir@$/;"	m
+info	Makefile	/^info: info-am$/;"	t
+info	Makefile.in	/^info: info-am$/;"	t
+info-am	Makefile	/^info-am:$/;"	t
+info-am	Makefile.in	/^info-am:$/;"	t
+info_arch	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v	typeref:typename:char const *
+info_arch	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v	typeref:typename:char const *
+info_compiler	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v	typeref:typename:char const *
+info_compiler	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v	typeref:typename:char const *
+info_cray	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	v	typeref:typename:char const *
+info_cray	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	v	typeref:typename:char const *
+info_language_dialect_default	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^const char* info_language_dialect_default =$/;"	v	typeref:typename:const char *
+info_language_dialect_default	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^const char* info_language_dialect_default = "INFO" ":" "dialect_default["$/;"	v	typeref:typename:const char *
+info_platform	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v	typeref:typename:char const *
+info_platform	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v	typeref:typename:char const *
+info_simulate	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v	typeref:typename:char const *
+info_simulate	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v	typeref:typename:char const *
+info_simulate_version	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^char const info_simulate_version[] = {$/;"	v	typeref:typename:char const[]
+info_simulate_version	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_simulate_version[] = {$/;"	v	typeref:typename:char const[]
+info_version	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^char const info_version[] = {$/;"	v	typeref:typename:char const[]
+info_version	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^char const* info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";$/;"	v	typeref:typename:char const *
+info_version	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	v	typeref:typename:char const[]
+info_version	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";$/;"	v	typeref:typename:char const *
+info_version_internal	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^char const info_version_internal[] = {$/;"	v	typeref:typename:char const[]
+info_version_internal	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^char const* info_version_internal = "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INT/;"	v	typeref:typename:char const *
+info_version_internal	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version_internal[] = {$/;"	v	typeref:typename:char const[]
+info_version_internal	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_version_internal = "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INT/;"	v	typeref:typename:char const *
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	Makefile.in	/^infodir = @infodir@$/;"	m
+install	Makefile	/^install: install-am$/;"	t
+install	Makefile.in	/^install: install-am$/;"	t
+install-am	Makefile	/^install-am: all-am$/;"	t
+install-am	Makefile.in	/^install-am: all-am$/;"	t
+install-binPROGRAMS	Makefile	/^install-binPROGRAMS: $(bin_PROGRAMS)$/;"	t
+install-binPROGRAMS	Makefile.in	/^install-binPROGRAMS: $(bin_PROGRAMS)$/;"	t
+install-data	Makefile	/^install-data: install-data-am$/;"	t
+install-data	Makefile.in	/^install-data: install-data-am$/;"	t
+install-data-am	Makefile	/^install-data-am:$/;"	t
+install-data-am	Makefile.in	/^install-data-am:$/;"	t
+install-dvi	Makefile	/^install-dvi: install-dvi-am$/;"	t
+install-dvi	Makefile.in	/^install-dvi: install-dvi-am$/;"	t
+install-dvi-am	Makefile	/^install-dvi-am:$/;"	t
+install-dvi-am	Makefile.in	/^install-dvi-am:$/;"	t
+install-exec	Makefile	/^install-exec: install-exec-am$/;"	t
+install-exec	Makefile.in	/^install-exec: install-exec-am$/;"	t
+install-exec-am	Makefile	/^install-exec-am: install-binPROGRAMS$/;"	t
+install-exec-am	Makefile.in	/^install-exec-am: install-binPROGRAMS$/;"	t
+install-html	Makefile	/^install-html: install-html-am$/;"	t
+install-html	Makefile.in	/^install-html: install-html-am$/;"	t
+install-html-am	Makefile	/^install-html-am:$/;"	t
+install-html-am	Makefile.in	/^install-html-am:$/;"	t
+install-info	Makefile	/^install-info: install-info-am$/;"	t
+install-info	Makefile.in	/^install-info: install-info-am$/;"	t
+install-info-am	Makefile	/^install-info-am:$/;"	t
+install-info-am	Makefile.in	/^install-info-am:$/;"	t
+install-man	Makefile	/^install-man:$/;"	t
+install-man	Makefile.in	/^install-man:$/;"	t
+install-pdf	Makefile	/^install-pdf: install-pdf-am$/;"	t
+install-pdf	Makefile.in	/^install-pdf: install-pdf-am$/;"	t
+install-pdf-am	Makefile	/^install-pdf-am:$/;"	t
+install-pdf-am	Makefile.in	/^install-pdf-am:$/;"	t
+install-ps	Makefile	/^install-ps: install-ps-am$/;"	t
+install-ps	Makefile.in	/^install-ps: install-ps-am$/;"	t
+install-ps-am	Makefile	/^install-ps-am:$/;"	t
+install-ps-am	Makefile.in	/^install-ps-am:$/;"	t
+install-strip	Makefile	/^install-strip:$/;"	t
+install-strip	Makefile.in	/^install-strip:$/;"	t
+install_module	web_api/utility/install-oatpp-modules.sh	/^function install_module () {$/;"	f
+install_sh	Makefile	/^install_sh = ${SHELL} \/home\/roley\/Project\/Dualarms\/install-sh$/;"	m
+install_sh	Makefile.in	/^install_sh = @install_sh@$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	Makefile.in	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	Makefile.in	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile.in	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+installcheck	Makefile	/^installcheck: installcheck-am$/;"	t
+installcheck	Makefile.in	/^installcheck: installcheck-am$/;"	t
+installcheck-am	Makefile	/^installcheck-am:$/;"	t
+installcheck-am	Makefile.in	/^installcheck-am:$/;"	t
+installdirs	Makefile	/^installdirs:$/;"	t
+installdirs	Makefile.in	/^installdirs:$/;"	t
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	Makefile.in	/^libdir = @libdir@$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	Makefile.in	/^libexecdir = @libexecdir@$/;"	m
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	Makefile.in	/^localedir = @localedir@$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	Makefile.in	/^localstatedir = @localstatedir@$/;"	m
+m_objectMapper	web_api/src/ErrorHandler.hpp	/^  std::shared_ptr<oatpp::data::mapping::ObjectMapper> m_objectMapper;$/;"	m	class:ErrorHandler	typeref:typename:std::shared_ptr<oatpp::data::mapping::ObjectMapper>
+m_userService	web_api/src/controller/UserController.hpp	/^  UserService m_userService; \/\/ Create user service.$/;"	m	class:UserController	typeref:typename:UserService
+main	main.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^int main(argc, argv) int argc; char *argv[];$/;"	f
+main	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f	typeref:typename:void
+main	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f	typeref:typename:int
+main	web_api/src/App.cpp	/^int main(int argc, const char * argv[]) {$/;"	f	typeref:typename:int
+main	web_api/test/tests.cpp	/^int main() {$/;"	f	typeref:typename:int
+maintainer-clean	Makefile	/^maintainer-clean: maintainer-clean-am$/;"	t
+maintainer-clean	Makefile.in	/^maintainer-clean: maintainer-clean-am$/;"	t
+maintainer-clean-am	Makefile	/^maintainer-clean-am: distclean-am maintainer-clean-generic$/;"	t
+maintainer-clean-am	Makefile.in	/^maintainer-clean-am: distclean-am maintainer-clean-generic$/;"	t
+maintainer-clean-generic	Makefile	/^maintainer-clean-generic:$/;"	t
+maintainer-clean-generic	Makefile.in	/^maintainer-clean-generic:$/;"	t
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	Makefile.in	/^mandir = @mandir@$/;"	m
+mkdir_p	Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkdir_p	Makefile.in	/^mkdir_p = @mkdir_p@$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	Makefile.in	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mostlyclean	Makefile	/^mostlyclean: mostlyclean-am$/;"	t
+mostlyclean	Makefile.in	/^mostlyclean: mostlyclean-am$/;"	t
+mostlyclean-am	Makefile	/^mostlyclean-am: mostlyclean-compile mostlyclean-generic$/;"	t
+mostlyclean-am	Makefile.in	/^mostlyclean-am: mostlyclean-compile mostlyclean-generic$/;"	t
+mostlyclean-compile	Makefile	/^mostlyclean-compile:$/;"	t
+mostlyclean-compile	Makefile.in	/^mostlyclean-compile:$/;"	t
+mostlyclean-generic	Makefile	/^mostlyclean-generic:$/;"	t
+mostlyclean-generic	Makefile.in	/^mostlyclean-generic:$/;"	t
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	Makefile.in	/^oldincludedir = @oldincludedir@$/;"	m
+onRun	web_api/test/UserControllerTest.cpp	/^void UserControllerTest::onRun() {$/;"	f	class:UserControllerTest	typeref:typename:void
+password	web_api/sql/001_init.sql	/^    password    VARCHAR,$/;"	E	table:AppUser
+pdf	Makefile	/^pdf: pdf-am$/;"	t
+pdf	Makefile.in	/^pdf: pdf-am$/;"	t
+pdf-am	Makefile	/^pdf-am:$/;"	t
+pdf-am	Makefile.in	/^pdf-am:$/;"	t
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	Makefile.in	/^pdfdir = @pdfdir@$/;"	m
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/dualarms$/;"	m
+pkgdatadir	Makefile.in	/^pkgdatadir = $(datadir)\/@PACKAGE@$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/dualarms$/;"	m
+pkgincludedir	Makefile.in	/^pkgincludedir = $(includedir)\/@PACKAGE@$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/dualarms$/;"	m
+pkglibdir	Makefile.in	/^pkglibdir = $(libdir)\/@PACKAGE@$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/dualarms$/;"	m
+pkglibexecdir	Makefile.in	/^pkglibexecdir = $(libexecdir)\/@PACKAGE@$/;"	m
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	Makefile.in	/^prefix = @prefix@$/;"	m
+preinstall	web_api/build/Makefile	/^preinstall: all$/;"	t
+preinstall/fast	web_api/build/Makefile	/^preinstall\/fast:$/;"	t
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	Makefile.in	/^program_transform_name = @program_transform_name@$/;"	m
+ps	Makefile	/^ps: ps-am$/;"	t
+ps	Makefile.in	/^ps: ps-am$/;"	t
+ps-am	Makefile	/^ps-am:$/;"	t
+ps-am	Makefile.in	/^ps-am:$/;"	t
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+psdir	Makefile.in	/^psdir = @psdir@$/;"	m
+qnxnto	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v	typeref:typename:char const *
+qnxnto	web_api/build/CMakeFiles/3.21.4/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v	typeref:typename:char const *
+rebuild_cache	web_api/build/Makefile	/^rebuild_cache:$/;"	t
+rebuild_cache/fast	web_api/build/Makefile	/^rebuild_cache\/fast: rebuild_cache$/;"	t
+response	web_api/src/controller/StaticController.hpp	/^    auto response = createResponse(Status::CODE_200, html);$/;"	m	class:StaticController	typeref:typename:auto
+role	web_api/sql/001_init.sql	/^    role        VARCHAR$/;"	E	table:AppUser
+run	main.cpp	/^void CRoot::run() { dualarms::utils::test_method(); }$/;"	f	class:dualarms::CRoot	typeref:typename:void
+run	web_api/src/App.cpp	/^void run() {$/;"	f	typeref:typename:void
+runTests	web_api/test/tests.cpp	/^void runTests() {$/;"	f	namespace:__anoncd69109e0111	typeref:typename:void
+runstatedir	Makefile	/^runstatedir = ${localstatedir}\/run$/;"	m
+runstatedir	Makefile.in	/^runstatedir = @runstatedir@$/;"	m
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	Makefile.in	/^sbindir = @sbindir@$/;"	m
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	Makefile.in	/^sharedstatedir = @sharedstatedir@$/;"	m
+src/App.cpp.i	web_api/build/Makefile	/^src\/App.cpp.i:$/;"	t
+src/App.cpp.o	web_api/build/Makefile	/^src\/App.cpp.o:$/;"	t
+src/App.cpp.s	web_api/build/Makefile	/^src\/App.cpp.s:$/;"	t
+src/App.i	web_api/build/Makefile	/^src\/App.i: src\/App.cpp.i$/;"	t
+src/App.o	web_api/build/Makefile	/^src\/App.o: src\/App.cpp.o$/;"	t
+src/App.s	web_api/build/Makefile	/^src\/App.s: src\/App.cpp.s$/;"	t
+src/ErrorHandler.cpp.i	web_api/build/Makefile	/^src\/ErrorHandler.cpp.i:$/;"	t
+src/ErrorHandler.cpp.o	web_api/build/Makefile	/^src\/ErrorHandler.cpp.o:$/;"	t
+src/ErrorHandler.cpp.s	web_api/build/Makefile	/^src\/ErrorHandler.cpp.s:$/;"	t
+src/ErrorHandler.i	web_api/build/Makefile	/^src\/ErrorHandler.i: src\/ErrorHandler.cpp.i$/;"	t
+src/ErrorHandler.o	web_api/build/Makefile	/^src\/ErrorHandler.o: src\/ErrorHandler.cpp.o$/;"	t
+src/ErrorHandler.s	web_api/build/Makefile	/^src\/ErrorHandler.s: src\/ErrorHandler.cpp.s$/;"	t
+src/service/UserService.cpp.i	web_api/build/Makefile	/^src\/service\/UserService.cpp.i:$/;"	t
+src/service/UserService.cpp.o	web_api/build/Makefile	/^src\/service\/UserService.cpp.o:$/;"	t
+src/service/UserService.cpp.s	web_api/build/Makefile	/^src\/service\/UserService.cpp.s:$/;"	t
+src/service/UserService.i	web_api/build/Makefile	/^src\/service\/UserService.i: src\/service\/UserService.cpp.i$/;"	t
+src/service/UserService.o	web_api/build/Makefile	/^src\/service\/UserService.o: src\/service\/UserService.cpp.o$/;"	t
+src/service/UserService.s	web_api/build/Makefile	/^src\/service\/UserService.s: src\/service\/UserService.cpp.s$/;"	t
+srcdir	Makefile	/^srcdir = .$/;"	m
+srcdir	Makefile.in	/^srcdir = @srcdir@$/;"	m
+subdir	Makefile	/^subdir = src$/;"	m
+subdir	Makefile.in	/^subdir = src$/;"	m
+swaggerComponent	web_api/src/AppComponent.hpp	/^  SwaggerComponent swaggerComponent;$/;"	m	class:AppComponent	typeref:typename:SwaggerComponent
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	Makefile.in	/^sysconfdir = @sysconfdir@$/;"	m
+tags	Makefile	/^tags: tags-am$/;"	t
+tags	Makefile.in	/^tags: tags-am$/;"	t
+tags-am	Makefile	/^tags-am: $(TAGS_DEPENDENCIES) $(am__tagged_files)$/;"	t
+tags-am	Makefile.in	/^tags-am: $(TAGS_DEPENDENCIES) $(am__tagged_files)$/;"	t
+target_alias	Makefile	/^target_alias = $/;"	m
+target_alias	Makefile.in	/^target_alias = @target_alias@$/;"	m
+test	web_api/build/Makefile	/^test:$/;"	t
+test/UserControllerTest.cpp.i	web_api/build/Makefile	/^test\/UserControllerTest.cpp.i:$/;"	t
+test/UserControllerTest.cpp.o	web_api/build/Makefile	/^test\/UserControllerTest.cpp.o:$/;"	t
+test/UserControllerTest.cpp.s	web_api/build/Makefile	/^test\/UserControllerTest.cpp.s:$/;"	t
+test/UserControllerTest.i	web_api/build/Makefile	/^test\/UserControllerTest.i: test\/UserControllerTest.cpp.i$/;"	t
+test/UserControllerTest.o	web_api/build/Makefile	/^test\/UserControllerTest.o: test\/UserControllerTest.cpp.o$/;"	t
+test/UserControllerTest.s	web_api/build/Makefile	/^test\/UserControllerTest.s: test\/UserControllerTest.cpp.s$/;"	t
+test/fast	web_api/build/Makefile	/^test\/fast: test$/;"	t
+test/tests.cpp.i	web_api/build/Makefile	/^test\/tests.cpp.i:$/;"	t
+test/tests.cpp.o	web_api/build/Makefile	/^test\/tests.cpp.o:$/;"	t
+test/tests.cpp.s	web_api/build/Makefile	/^test\/tests.cpp.s:$/;"	t
+test/tests.i	web_api/build/Makefile	/^test\/tests.i: test\/tests.cpp.i$/;"	t
+test/tests.o	web_api/build/Makefile	/^test\/tests.o: test\/tests.cpp.o$/;"	t
+test/tests.s	web_api/build/Makefile	/^test\/tests.s: test\/tests.cpp.s$/;"	t
+top_build_prefix	Makefile	/^top_build_prefix = ..\/$/;"	m
+top_build_prefix	Makefile.in	/^top_build_prefix = @top_build_prefix@$/;"	m
+top_builddir	Makefile	/^top_builddir = ..$/;"	m
+top_builddir	Makefile.in	/^top_builddir = @top_builddir@$/;"	m
+top_srcdir	Makefile	/^top_srcdir = ..$/;"	m
+top_srcdir	Makefile.in	/^top_srcdir = @top_srcdir@$/;"	m
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	Makefile.in	/^transform = $(program_transform_name)$/;"	m
+uninstall	Makefile	/^uninstall: uninstall-am$/;"	t
+uninstall	Makefile.in	/^uninstall: uninstall-am$/;"	t
+uninstall-am	Makefile	/^uninstall-am: uninstall-binPROGRAMS$/;"	t
+uninstall-am	Makefile.in	/^uninstall-am: uninstall-binPROGRAMS$/;"	t
+uninstall-binPROGRAMS	Makefile	/^uninstall-binPROGRAMS:$/;"	t
+uninstall-binPROGRAMS	Makefile.in	/^uninstall-binPROGRAMS:$/;"	t
+updateUser	web_api/src/service/UserService.cpp	/^oatpp::Object<UserDto> UserService::updateUser(const oatpp::Object<UserDto>& dto) {$/;"	f	class:UserService	typeref:typename:oatpp::Object<UserDto>
+username	web_api/sql/001_init.sql	/^    username    VARCHAR UNIQUE,$/;"	E	table:AppUser
+volatile	web_api/build/CMakeFiles/3.21.4/CompilerIdC/CMakeCCompilerId.c	/^# define volatile$/;"	d	file:
+web_api	web_api/CMakeLists.txt	/^add_executable(web_api src\/App.cpp)$/;"	t
+web_api	web_api/CMakeLists.txt	/^project(web_api)$/;"	p
+web_api	web_api/build/Makefile	/^web_api: cmake_check_build_system$/;"	t
+web_api-lib	web_api/CMakeLists.txt	/^add_library(web_api-lib$/;"	t
+web_api-lib	web_api/build/Makefile	/^web_api-lib: cmake_check_build_system$/;"	t
+web_api-lib/fast	web_api/build/Makefile	/^web_api-lib\/fast:$/;"	t
+web_api-test	web_api/CMakeLists.txt	/^add_executable(web_api-test$/;"	t
+web_api-test	web_api/build/Makefile	/^web_api-test: cmake_check_build_system$/;"	t
+web_api-test/fast	web_api/build/Makefile	/^web_api-test\/fast:$/;"	t
+web_api/fast	web_api/build/Makefile	/^web_api\/fast:$/;"	t
+~CRoot	main.cpp	/^CRoot::~CRoot(void) {}$/;"	f	class:dualarms::CRoot
